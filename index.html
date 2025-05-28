@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jane Doe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Patel</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-buttons">
+      <button>Hire Me</button>
+      <button>Resume</button>
+      <button>Dark Mode</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="about" id="about">
+      <img src="https://i.pinimg.com/736x/6e/d6/2e/6ed62e3ece6ee4b4823f0b0857d2b288.jpg" alt="" />
+      <p>
+        With a freshly minted BCA degree, I'm Het Patel, a detail-oriented professional passionate about all things tech. My studies have equipped me with a solid understanding of software development and system management, and I'm excited to apply my skills in a dynamic work environment.
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Accessibility</div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <img src="https://img.freepik.com/premium-photo/motivational-composition-goal-achievement_23-2150490000.jpg?semt=ais_hybrid&w=740" alt="Photo 1" />
+          <div class="project-info">
+            <h3> Achivements</h3>
+            <p>Academic Achievement</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://img.freepik.com/premium-vector/education-supplies-concept-isolated-icon_25030-13390.jpg" alt="Photo 2" />
+          <div class="project-info">
+            <h3>Educations</h3>
+            <p>IMCA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
